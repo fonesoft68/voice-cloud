@@ -1,0 +1,7 @@
+wav\Guashi-Chaxun-Jiaofei-WoXiangZhuanZhang.wav  4  LOST  QUERY  SUBMIT  TRANS 
+wav\lianjieguanli.wav  1  CONNECT 
+wav\QingShuRuZhangHaoJieShuAn-female.wav  2  ACCOUNT  JIE_SHU 
+wav\02.wav  1  VBOX 
+wav\Zhuanzhang.wav  1  TRANS 
+wav\05.wav  3  DIAL  CONNECT  JIE_SHU 
+wav\07.wav  1  CONNECT 

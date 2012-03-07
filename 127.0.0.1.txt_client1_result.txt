@@ -1,0 +1,7 @@
+wav\danjianbohao-lianjieguanli-liuyanxinxiang.wav  3  DIAL  CONNECT  VBOX 
+wav\Guashi-Chaxun-Jiaofei-Zhuanzhang.wav  4  LOST  QUERY  SUBMIT  TRANS 
+wav\mingtian_tianqi_female.wav  2  TOMORROW  WETHER 
+wav\01.wav  1  CAR 
+wav\03.wav  2  QUERY  ACCOUNT 
+wav\04.wav  2  WETHER  JIE_SHU 
+wav\06.wav  3  ACCOUNT  LOST  QUERY 
