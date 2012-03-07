@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope
+ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+ xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+ xmlns:ns1="urn:Client_1"
+ xmlns:ns2="urn:Client_2"
+ xmlns:ns3="urn:Client_3">
+ <SOAP-ENV:Body SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+  <ns2:TaskSolveResponse>
+   <ret>
+    <size>0</size>
+    <str></str>
+   </ret>
+  </ns2:TaskSolveResponse>
+ </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
