@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<title>User</title> 
+<link href="uploadify/uploadify.css" type="text/css" rel="Stylesheet" rev="Stylesheet" />
+<script type="text/javascript" language="javascript" src="./uploadify/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" language="javascript" src="./uploadify/swfobject.js"></script>
+<script type="text/javascript" language="javascript" src="./uploadify/jquery.uploadify.v2.1.4.min.js"></script>
+<script type="text/javascript" language="javascript">
+
+        $(document).ready(function () {
+
+            $("#file_upload").uploadify({
+                'uploader': '/uploadify/uploadify.swf',
+                'script': '/uploadify/uploadify.php',
+                'cancelImg': '/uploadify/cancel.png',
+                'folder':'/UploadFiles/',
+                'auto':true,
+                'multi':true,				
+				'onError': function(event,queueId,fileObj,errorObj)
+				{
+					alert("error type:"+errorObj.type+"\n"+"error info:"+errorObj.info+"\n");
+
+				},
+				'onAllComplete': function(event,data)
+				{
+					alert("File nums:"+data.filesUploaded+"\n"+"Error nums:"+data.errors+"\n");
+					
+
+				}
+
+            });
+
+        });
+
+    </script>
+</head>
+<body> 
+	<input type="file" name="file_upload" id="file_upload" />
+</body>
+</html>
