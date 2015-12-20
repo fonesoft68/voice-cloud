@@ -1,0 +1,1 @@
+基于gsoap、apache+php+mysql开发的B-S-C模式的云计算平台。
